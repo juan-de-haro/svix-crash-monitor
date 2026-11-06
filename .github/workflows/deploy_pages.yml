@@ -53,8 +53,7 @@ on:
 # GITHUB_TOKEN needs write access to push the history branch and to
 # force-push the gh-pages branch.
 permissions:
-  contents: read
-  contents: write  # TODO: the job pushes the history branch and force-pushes gh-pages. Is read enough?
+  contents: write
 
 # Never let two deploys interleave their pushes (the daily cron racing a
 # push to main). The newest run supersedes an in-flight one.
